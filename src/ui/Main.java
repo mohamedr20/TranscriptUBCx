@@ -17,6 +17,7 @@ public class Main {
         t1.addGrade("CPSC-210", 3.5);
         t1.addGrade("CALC-113",3.2);
         t1.addGrade("GEO-112",1.5);
+        System.out.println(t1.getGradeByCourse("CALC-113"));
         t1.printTranscript();
 //        //TODO: add grades to the other Transcript objects
 //        System.out.print(t1.getStudentName() + ": ");
